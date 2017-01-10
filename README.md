@@ -14,7 +14,7 @@ Layout to display the different states during hot-code-push.
 
 - **app_1** Launching App ([preview](https://worona.github.io/worona-chcp-layout/html/app_1.html))
 
-- **error_1** No internet connexion ([preview](https://worona.github.io/worona-chcp-layout/html/error_1.html))
+- **error_1** No internet connection ([preview](https://worona.github.io/worona-chcp-layout/html/error_1.html))
 
 - **error_2** Error downloading update ([preview](https://worona.github.io/worona-chcp-layout/html/error_2.html))
 
@@ -22,7 +22,7 @@ Layout to display the different states during hot-code-push.
 
 ### Flows
 
-- **No internet connexion:** [info_1](https://worona.github.io/worona-chcp-layout/html/info_1.html) → [error_1](https://worona.github.io/worona-chcp-layout/html/error_1.html)
+- **No internet connection:** [info_1](https://worona.github.io/worona-chcp-layout/html/info_1.html) → [error_1](https://worona.github.io/worona-chcp-layout/html/error_1.html)
 
 - **Nothing to update:** [info_1](https://worona.github.io/worona-chcp-layout/html/info_1.html) → [app_1](https://worona.github.io/worona-chcp-layout/html/app_1.html)
 
