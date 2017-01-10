@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./bulma-worona.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../addons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Block Scroll -->
+    <style media="screen">
+      html, body {margin: 0; height: 100%; overflow: hidden}
+    </style>
+
+    <!-- Spinner Style -->
+    <style media="screen">
+      .loader, .loader:after {
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+      }
+      .loader {
+        margin: 20px auto;
+        font-size: 10px;
+        position: relative;
+        text-indent: -9999em;
+        border-top: 0.6em solid rgba(51,51,51, 0.2);
+        border-right: 0.6em solid rgba(51,51,51, 0.2);
+        border-bottom: 0.6em solid rgba(51,51,51, 0.2);
+        border-left: 0.6em solid #4A90E2;
+        -webkit-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-animation: load8 1.8s infinite linear;
+        animation: load8 1.8s infinite linear;
+      }
+      @-webkit-keyframes load8 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes load8 {
+        0% {
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+  </head>
+  <body>
+    <section class="section hero is-fullheight">
+      <div class="hero-body">
+        <div class="container has-text-centered" style="color:#4A90E2">
+          <span>
+            <div class="loader">Loading...</div>
+          </span>
+          <span>
+            Loading App
+          </span>
+        </div>
+      </div>
+      <div class="hero-footer">
+        <div class="container has-text-centered">
+          <img src="powered.svg" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
