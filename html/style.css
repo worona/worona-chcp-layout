@@ -18,6 +18,64 @@ html, body {
   height:100vh;
 }
 
+.icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  color: #363636;
+  display: inline-flex;
+  font-size: 14px;
+  height: 32px;
+  justify-content: flex-start;
+  line-height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+  position: relative;
+  vertical-align: top;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  white-space: nowrap;
+}
+.button.is-primary.is-outlined {
+  background-color: transparent;
+  border-color: #4A90E2;
+  border-width: 1px;
+  color: #4A90E2; }
+
+.button.is-primary.is-outlined:hover, .button.is-primary.is-outlined:focus {
+  background-color: #4A90E2;
+  border-color: #4A90E2;
+  color: white;
+}
+
+.button.is-danger.is-outlined {
+  background-color: transparent;
+  border-color: #e74c3c;
+  border-width: 1px;
+  color: #e74c3c; }
+
+.button.is-danger.is-outlined:hover, .button.is-danger.is-outlined:focus {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+  color: white;
+}
+
 .footer {
   align-self: center;
   padding-bottom: 15%;
@@ -33,6 +91,10 @@ html, body {
 
 .text-red {
   color: #e74c3c;
+}
+
+.text-grey {
+  color: #7F8C8D;
 }
 
 .loader, .loader:after {
