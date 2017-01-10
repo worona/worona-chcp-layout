@@ -8,6 +8,10 @@ html, body {
   font-weight: 300;
 }
 
+.error-container {
+  margin-top: 40px;
+}
+
 .app {
   display: flex;
   flex-direction: column;
