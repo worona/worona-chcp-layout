@@ -12,6 +12,8 @@ Layout to display the different states during hot-code-push.
 
 - **info_3** Update installed
 
+- **app_1** Launching App
+
 - **error_1** No internet connexion
 
 - **error_2** Error downloading update
